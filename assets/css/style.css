@@ -1,17 +1,20 @@
+/* Moved the main font color and font-family to this declaration to cut down on redudnacies. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/* Changed the div to a header to be more concise. */
+
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
@@ -20,31 +23,34 @@ header h1 {
     font-size: 48px;
 }
 
+/* Added an ID since this is so specific. I wanted to have a high specificity rating. */
+
 #seo {
     color: #d9dcd6;
 }
+
+/* Changed the ul to a nav. */
 
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 
-.nav-bar {
+nav a {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     text-decoration: none;
 }
+
 
 p {
     font-size: 16px;
 }
+
+/* Made the class an ID. */
 
 #hero {
     height: 800px;
@@ -65,17 +71,20 @@ p {
     margin-left: 25px;
 }
 
+/* More semantic elements to add more meaning to the structure. */
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Consolidated the styling for all the articles in the main. Before each was styled the same way with a different class designation. */
+
 main article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
 }
 
@@ -96,7 +105,6 @@ aside {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
 }
@@ -115,10 +123,16 @@ aside {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+/* Added the color black to the text of the footer. This seemed less redundant than having the white color in all the other sections. */
+
 footer h2 {
     font-size: 20px;
+    color: black;
+}
+
+footer p {
+    color: black;
 }
