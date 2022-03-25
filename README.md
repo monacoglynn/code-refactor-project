@@ -13,4 +13,4 @@ I added a title to the page and alt tags for the pictures. I added some comments
 
 3/24/22
 
-I added alt tags to the <img> in <aside>
+I added alt tags to the img in aside
