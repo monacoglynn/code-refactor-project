@@ -13,8 +13,7 @@ I added a title to the page and alt tags for the pictures. I added some comments
 
 3/24/22
 
-I added alt tags to the img in aside
-<<<<<<< HEAD
+I added alt tags to the img in aside.
 
-=======
->>>>>>> 4fe06afd40e3eaa5bad383e170651bff25d9813e
+
+https://monacoglynn.github.io/code-refactor-project/
