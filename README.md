@@ -10,3 +10,7 @@ Removed certain classes that were redundant once a more fitting element name was
 3/22/22
 
 I added a title to the page and alt tags for the pictures. I added some comments into the CSS to let people know what I changed in the actual file.
+
+3/24/22
+
+I added alt tags to the <img> in <aside>
