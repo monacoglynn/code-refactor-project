@@ -18,4 +18,4 @@ I added alt tags to the img in aside.
 
 https://monacoglynn.github.io/code-refactor-project/
 
-![splash-page](./assets/images/splash.png)
+![splash-page](./assets/images/splash.jpg)
